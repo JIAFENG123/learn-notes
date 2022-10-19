@@ -34,6 +34,8 @@ function siderbarfrontend(){
         { text: '单例模式', link: '/menu/singleTon' },
         { text: '策略模式', link: '/menu/strategy' },
         { text: '代理模式', link: '/menu/proxy' },
+        { text: '迭代器模式', link: '/menu/iterator' },
+        { text: '发布订阅模式', link: '/menu/publish_Subscription' },
         // ...
       ]
     }
