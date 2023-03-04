@@ -9,9 +9,11 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '前端', link: '/menu/introduction', activeMatch: '/menu/' },
+      { text: '其他', link: '/other/introduction', activeMatch: '/other/' },
     ],
     sidebar: {
-      '/menu/': siderbarfrontend()
+      '/menu/': siderbarfrontend(),
+      '/other/': siderbarOther(),
     },
     footer: {
       message: 'Released under the MIT License.',
@@ -36,6 +38,18 @@ function siderbarfrontend(){
         { text: '代理模式', link: '/menu/proxy' },
         { text: '迭代器模式', link: '/menu/iterator' },
         { text: '发布订阅模式', link: '/menu/publish_Subscription' },
+        // ...
+      ]
+    }
+  ]
+}
+function siderbarOther(){
+  return  [
+    {
+      text: 'pr',
+      collapsible: true,
+      items: [
+        { text: 'Introduction', link: '/other/pr/introduction' }
         // ...
       ]
     }
