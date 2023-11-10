@@ -16,10 +16,3 @@ hero:
       link: https://github.com/vuejs/vitepress
 ---
 
-<!-- <script setup>
-import Layout from './components/Layout.vue'
-</script>
-
-
-<Layout /> -->
-
