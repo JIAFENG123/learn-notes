@@ -66,5 +66,10 @@ function sideralgorithm() {
       base: "/algorithm/",
       link: `math`,
     },
+    {
+      text: "集合",
+      base: "/algorithm/",
+      link: `gather`,
+    },
   ];
 }
